@@ -1,0 +1,73 @@
+.sidebar-section {
+  height: 100vh;
+  width: 280px;
+  background-color: #FCFCFF;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  font-size: 29px;
+  font-weight: 700;
+  color: #545DFF;
+  margin-bottom: 68px;
+}
+
+.menu-item-section {
+  display: flex;
+  margin-left: 51px;
+  align-items: center;
+  gap: 20px;
+  margin-top: 47px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  .icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow-section {
+    margin-left: 75px;
+  }
+  .nodul-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nodul{
+    width: 6px;
+    height: 35px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #545DFF;
+  }
+  .menu-item-title{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .active{
+    font-size: 18px;
+    font-weight: 700;
+    color: #545DFF;
+  }
+  .no-active {
+    color: #7A7A7A;
+  }
+}
+
+.channel-item-section {
+  margin-left: 92px;
+}
+.channel-item{
+  margin-top: 31px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.devider {
+  margin: 31px 0;
+  height: 2px;
+  width: 100%;
+  background-color: #C4C4C4;
+}
