@@ -1,0 +1,102 @@
+.profile-section {
+  width: 100%;
+  min-width: 400px;
+  height: 1080px;
+  background: #F3F4FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-upper {
+  display: flex;
+  margin-top: 40px;
+  padding-bottom: 48px;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-profile {
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  border: 3px solid #989EFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.text-profile{
+  padding-right: 10px;
+}
+
+.name-profile {
+  font-weight: 700;
+  font-size: 20px;
+  color: #212121;
+}
+
+.company-profile {
+  font-weight: 700;
+  font-size: 16px;
+  color: #7A7A7A;
+}
+
+.profile-bottom{
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 26px #DDDFFF;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 344px;
+  height: 216px;
+  padding: 16px 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-bottom-header {
+  display: flex;
+  position: relative;
+  // gap: 85px;
+}
+
+.text-balance {
+  font-size: 18px;
+  font-weight: 600;
+  color: #7A7A7A;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.price-balance {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 23px;
+}
+
+.button-profile {
+  width: 277px;
+  height: 57px;
+  background: #545DFF;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.three-dot {
+  position: absolute;
+  right: 30px;
+  // width: 30%;
+}

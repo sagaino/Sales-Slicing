@@ -1,4 +1,5 @@
 import Dashboard from '../components/dashboard'
+import Profile from '../components/profile'
 import SideBar from '../components/sidebar'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className='App'>
       <SideBar />
       <Dashboard />
+      <Profile />
     </div>
   )
 }
